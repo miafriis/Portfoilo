@@ -1,0 +1,284 @@
+*{
+box-sizing: border-box;
+
+}
+
+body {
+  background-color: #69A4D0;
+}
+
+
+h1 {
+  font-family: Grandstander;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  font-size: 55px;
+  margin-bottom: -18px;
+  flex-wrap: wrap;
+
+}
+
+h2 {
+  font-family: Grandstander;
+  color: white;
+  font-style: italic;
+  font-size: 25px;
+  margin-bottom: 2%;
+
+
+}
+
+h4{
+  font-family: Grandstander;
+  color: white;
+  margin-top: 5%;
+  text-align: center;
+  font-size: 19px;
+
+}
+
+h5{
+  font-family: Grandstander;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 1%;
+
+}
+
+p{
+  font-family: Grandstander;
+  margin-left: 3%;
+
+}
+
+strong{
+font-family: Grandstander;
+font-size: 20px;
+
+}
+
+
+
+ul {
+  font-family: Grandstander;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  text-align: center;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+
+
+}
+
+li a:hover:not(.active){
+color: #69A4D0;
+
+}
+
+
+.flex-container-1 {
+  font-family: Grandstander;
+  border: 1px solid ##b3c6ff;
+  background-color: #b3c6ff;
+  padding: 10px;
+  border-radius: 30px;
+  margin-top: 3%;
+  width: 800px;
+  font-size: 20px;
+  margin-left: 90px;
+}
+
+.flex-container-TGTG{
+  Font-family: Grandstander;
+  border: 1px solid ##b3c6ff;
+  background-color: #b3c6ff;
+  margin-top: -35px;
+  margin-left: 60px;
+  margin-right: 60px;
+  border-radius: 30px;
+
+}
+
+.TOGO-tekst{
+Font-family: Grandstander;
+text-align: center;
+
+}
+
+.center-2{
+  margin-left: 1295px;
+  margin-top: 50px;
+
+}
+
+.flex-container-0{
+
+}
+
+.center-Mia-1{
+margin-left: 1000px;
+margin-top: -570px;
+
+}
+
+.center-Mia-2{
+margin-left: 1200px;
+margin-top: -30px;
+}
+
+.center-Mia-3{
+  margin-left: 960px;
+  margin-top: -180px;
+
+}
+
+.projekter-photoshop{
+margin-left: 80px;
+margin-top: 40px;
+width: 300px;
+}
+
+.projekter-portfolio{
+  margin-left: 380px;
+  width: 300px;
+  margin-top: -297px;
+
+}
+
+.projekter-toogoodtogo{
+margin-left: 680px;
+width: 300px;
+margin-top: -300px;
+}
+
+.projekter-firma{
+  margin-left: 380px;
+  width: 300px;
+  margin-top: -305px;
+}
+
+.projekter-youtube{
+  margin-left: 80px;
+  width: 300px;
+
+}
+
+.projekter-Semester2{
+  margin-left: 680px;
+  width: 300px;
+  margin-top: -597px;
+
+}
+
+.projekter-Semester4{
+  margin-left: 980px;
+  width: 300px;
+  margin-top: -318px;
+
+}
+
+.Center-youtube-video{
+text-align: center;
+margin-top: 40px;
+
+}
+
+.container-kontakt {
+  font-family: Grandstander;
+  border-radius: 30px;
+  border: 1px solid #b3c6ff;
+  background-color: #b3c6ff;
+  padding: 20px;
+  margin-top:3%;
+  width: 65%;
+  margin-left: 250px;
+
+
+}
+
+input[type=text], select, textarea {
+  font-family: Grandstander;
+  width: 70%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  box-sizing: border-box;
+  margin-top: 2px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=send]{
+  font-family: Grandstander;
+  text-align: center;
+  margin-left: 700px;
+  font-size: 12px;
+
+}
+
+input[type=send]:hover {
+  background-color: #69A4D0;
+}
+
+.Center-knap{
+  font-family: Grandstander;
+  text-decoration: none;
+  margin-left: 92%;
+  }
+
+  a:link {
+  text-decoration: none;
+
+
+}
+
+.Center-Erfaring{
+  border: 1px solid white;
+  background-color: #b3c6ff;
+  border-radius: 30px;
+  margin-top: 3%;
+  margin-left: 30px;
+  width: 500px;
+  padding: 20px;
+}
+
+.Center-uddanelse{
+  border: 1px solid white;
+  background-color: #b3c6ff;
+  border-radius: 30px;
+  margin-top: 3%;
+  margin-left: 30px;
+  width: 500px;
+  padding: 20px;
+
+}
+
+.grid-container-forside{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  font-size: 10px;
+}
+
+.grid-container-cv{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  margin-left: 150px;
+  margin-top: 2%;
+
+}
